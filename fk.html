@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(187, 243, 243);
+        }
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        #cards {
+            width: 350px;
+            height: 440px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgb(82, 86, 87);
+            text-align: center;
+            margin: 18px;
+            border: 2px solid white;
+            align-items: center;
+            background-color: rgb(255, 255, 255);
+            justify-content: space-around;
+        }
+        mark {
+            padding: 2px 4px;
+            border: red;
+        }
+        img {
+            width: 180px;
+            height: 200px;
+        }
+        #topup {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 1px;
+            background-color: #0048ff9a;
+        }
+        #input {
+            width: 800px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid white;
+            box-shadow: 0 6px 15px rgb(82, 86, 87);
+            padding: 5px;
+        }
+        #text {
+            color: white;
+            font-size: 32px;
+        }
+        #cart {
+            color: red;
+        }
+        #ac {
+            padding: 8px 15px;
+            width: 200px;
+            border-radius: 5px;
+            background-color: rgb(235, 157, 12);
+            color: white;
+            border: none;
+            font-size: 18px;
+        }
+        #ta {
+            color: green;
+            font-size: 24px;
+        }
+        #amount {
+            background-color: white;
+            width: 300px;
+            padding: 5px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgb(82, 86, 87);
+        }
+        #c{
+            color: white;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <div id="topup">
+        <h1 id="text">FlipKart 📅</h1>
+        <input type="text" name="" oninput="searchinput()" id="input" placeholder="Search for products.....">
+        <h2 id="c">Cart<span id="cart">0</span></h2>
+        </div>
+    </center>
+    <div id="container">
+        <!-- <div id="cards">
+            <h1></h1>
+            <img src="" alt="">
+            <p></p>
+            <mark></mark>
+        </div> -->
+    </div>
+    <center><h2 id="amount">Total Amount :<span id="ta"></span></h2></center>
+    <script src="./fk.js"></script>
+</body>
+</html>
