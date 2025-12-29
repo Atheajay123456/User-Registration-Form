@@ -1,4 +1,4 @@
-# Client-Side Registration Form Validation System
+# User Registration Form
 
 ## 📌 Project Overview
 This project is a simple **client-side registration form** that validates user inputs using **JavaScript and Regular Expressions** to ensure accurate and secure data entry before form submission.
